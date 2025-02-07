@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Body": {
+      "type": "blocks"
+    },
+    "Bio": {
+      "type": "blocks"
+    },
+    "BodyEN": {
+      "type": "blocks"
+    },
+    "BioEN": {
+      "type": "blocks"
+    }
+  }
+}
