@@ -501,6 +501,7 @@ export interface ApiAboutAbout extends Struct.CollectionTypeSchema {
     singularName: 'about';
     pluralName: 'abouts';
     displayName: 'About';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -510,6 +511,7 @@ export interface ApiAboutAbout extends Struct.CollectionTypeSchema {
     Bio: Schema.Attribute.Blocks;
     BodyEN: Schema.Attribute.Blocks;
     BioEN: Schema.Attribute.Blocks;
+    Cover: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
