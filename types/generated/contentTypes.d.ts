@@ -632,10 +632,7 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
   };
   attributes: {
     Title: Schema.Attribute.String;
-    Images: Schema.Attribute.Media<
-      'images' | 'files' | 'videos' | 'audios',
-      true
-    >;
+    Images: Schema.Attribute.Media<'images' | 'files' | 'videos', true>;
     Body: Schema.Attribute.Blocks;
     TitleEN: Schema.Attribute.String;
     BodyEN: Schema.Attribute.Blocks;
