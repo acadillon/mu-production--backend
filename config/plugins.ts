@@ -20,7 +20,7 @@ export default ({ env }) => ({
             breakpoints: {
                 large: 1100,
                 medium: 750,
-                small: 500
+                small: 500 
             }
         },
     },
