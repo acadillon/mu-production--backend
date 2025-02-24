@@ -4,7 +4,8 @@
   "info": {
     "singularName": "actualite",
     "pluralName": "actualites",
-    "displayName": "Actualite"
+    "displayName": "Actualités",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,14 +25,15 @@
       "inversedBy": "actualites"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Link": {
       "type": "string"

@@ -500,7 +500,8 @@ export interface ApiAboutAbout extends Struct.SingleTypeSchema {
   info: {
     singularName: 'about';
     pluralName: 'abouts';
-    displayName: 'About';
+    displayName: '\u00C0 propos';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -532,7 +533,8 @@ export interface ApiActualiteActualite extends Struct.CollectionTypeSchema {
   info: {
     singularName: 'actualite';
     pluralName: 'actualites';
-    displayName: 'Actualite';
+    displayName: 'Actualit\u00E9s';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -567,7 +569,8 @@ export interface ApiCategoryCategory extends Struct.CollectionTypeSchema {
   info: {
     singularName: 'category';
     pluralName: 'categories';
-    displayName: 'Category';
+    displayName: 'Cat\u00E9gories';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -624,7 +627,7 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
   info: {
     singularName: 'work';
     pluralName: 'works';
-    displayName: 'Work';
+    displayName: 'Projets';
     description: '';
   };
   options: {
