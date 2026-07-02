@@ -60,6 +60,9 @@
       "relation": "oneToMany",
       "target": "api::work.work",
       "mappedBy": "work"
+    },
+    "youtubeUrl": {
+      "type": "string"
     }
   }
 }

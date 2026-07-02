@@ -646,6 +646,7 @@ export interface ApiWorkWork extends Struct.CollectionTypeSchema {
     PoemEN: Schema.Attribute.Blocks;
     work: Schema.Attribute.Relation<'manyToOne', 'api::work.work'>;
     works: Schema.Attribute.Relation<'oneToMany', 'api::work.work'>;
+    youtubeUrl: Schema.Attribute.String;
     createdAt: Schema.Attribute.DateTime;
     updatedAt: Schema.Attribute.DateTime;
     publishedAt: Schema.Attribute.DateTime;
